@@ -1,5 +1,5 @@
 import axios from "axios";
-console.log(process.env.VUE_APP_API_KEY);
+import interceptors from "./interceptors";
 const instance = axios.create({
   baseURL: process.env.VUE_APP_API_URL
   // params: {
@@ -7,4 +7,5 @@ const instance = axios.create({
   //   plot: "full"
   // }
 });
+interceptors(instance);
 export default instance;
