@@ -20,7 +20,7 @@ export default {
       };
     },
     posterBg() {
-      console.log("hi");
+      //console.log("hi");
       return this.poster ? `url(${this.poster})` : this.defaultPosterBg;
     }
   }
