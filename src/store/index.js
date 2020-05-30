@@ -2,6 +2,7 @@ import Vue from "vue";
 import Vuex from "vuex";
 import movies from "./modules/movies";
 import loader from "./modules/loader";
+import notification from "./modules/notification";
 Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {},
@@ -9,7 +10,8 @@ const store = new Vuex.Store({
   actions: {},
   modules: {
     movies,
-    loader
+    loader,
+    notification
   }
 });
 store.dispatch("initMoviesStore");
