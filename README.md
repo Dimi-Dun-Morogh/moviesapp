@@ -1,2 +1,2 @@
 ## To do:
-- [ ] - setup axios
+- [ ] - while isSearch==true fix movie delete

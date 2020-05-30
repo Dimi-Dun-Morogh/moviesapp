@@ -47,7 +47,7 @@ export default {
         id: this.movie.imdbID,
         title: this.movie.Title
       });
-      console.log(this.movie.Title);
+      console.log(this.movie.imdbID);
     }
   }
 };
